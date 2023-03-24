@@ -1,0 +1,202 @@
+
+/* Navy Blue
+#05445E
+
+Blue Grotto
+#189AB4
+
+Blue Green
+#75E6DA
+
+Baby Blue
+#D4F1F4 
+
+Cyan
+#2FF3E0
+
+Gold
+#F8D210*/
+
+body{
+    background-color: #05445e;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*, *::before,*::after{
+    box-sizing: inherit;
+}
+
+header img{
+    width: 150px;
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid skyblue;
+}
+
+header{
+    background-color: goldenrod;
+    margin: 2px;
+    padding: 2px;
+    width: 100%;
+    /* margin-bottom: 0; */
+    
+    /* height: 400px; */
+}
+
+
+header p{
+    color: #05445e;
+    margin: 0 auto;
+    font-family: Serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: top;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header li{
+    margin: 10px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+header a:hover{
+    background-color: #05445e;
+    padding: 5px;
+    /* position: relative;
+    top: 10px; */
+}
+
+.img-1{
+    width:50%;
+    height:50vh;
+    position: relative;
+    top: 20px;
+    left: 5px;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-radius: 20px;
+}
+ main{
+    margin: 2px;
+    padding: 2px;
+    width: 100%;
+ }
+
+ main h2{
+    text-align: right;
+    color: #75E6DA;
+    font-size: 50px;
+    margin-bottom: 0;
+ }
+main h1{
+    margin-top: 0;
+    text-align: right;
+    color:goldenrod;
+    font-size: 100px;
+}
+
+.courses{
+    background: #189AB4;
+    width:100%px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.courses h1{
+    font-size: 50px;
+    color:red;
+}
+
+.courses li{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+.admission{
+    width: 100%;
+}
+form{
+    background-color: bisque;
+    margin: 2px;
+    padding: 2px;
+    /* width: 1px; */
+    text-align: center;
+}
+
+form h1{
+    font-size: 50px;
+    color:crimson;
+    text-align: left;
+}
+
+form label{
+    font-size: 20px;
+    font-weight: 600;
+    color: #05445e;
+}
+
+input{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+}
+
+button{
+    width:100px;
+    height: 50px;
+    border-radius: 2px;
+    border: 2px solid blueviolet;
+    background: #05445e;
+    cursor: pointer;
+    border-radius: 10px;
+    color: yellow;
+}
+
+button:hover{
+    box-shadow: -0px -0px 20px yellow;    
+}
+
+/* youtube */
+
+.youtube {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: teal;
+    text-align: center;
+}
+
+.youtube h1{
+    margin: 0;
+    color:lightpink;
+}
+
+
+/* fooeter */
+footer{
+    width: 100%;
+    background-color: white;
+    color: brown;
+    text-align: center;
+}
+
+footer h2{
+    margin: 0;
+}

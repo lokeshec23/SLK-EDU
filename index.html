@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="SLK Logo.jpg" type="image/icon type" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>SLK Computer Education</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- <img src="E:\coding\HTML\SLK Computer Education\img\SLK Logo.jpg" alt="slk logo"> -->
+      <p>SLK COMPUTER EDUCATON</p>
+      <p>Connecting Technology</p>
+
+      <nav>
+        <ul>
+          <li><a href="">Login</a></li>
+          <li><a href="#admission">Admission</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="#footer">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- main content  -->
+    <main>
+      <img class="img-1" src="teacher and studet.jpg" alt="student image" />
+      <h2>Welcome To</h2>
+      <h1>SLK Computer Education</h1>
+    </main>
+    <br />
+    <div class="courses" id="courses">
+      <h1>Courses We're Offering</h1>
+      <ul>
+        <li>MS-Office</li>
+        <li>C/C++ Program</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Basic Computer Fundamentals</li>
+      </ul>
+    </div>
+
+    <div class="admission" id="admission">
+      <form
+        action=""
+        method="post"
+        target="hidden_iframe"
+        onsubmit="submitted=true"
+        id="admission"
+      >
+        <h1>For Admission</h1>
+        <label for="name" id="name">Name:</label>
+        <input type="text" placeholder="First Name" /> <br />
+        <br />
+        <label for="age" id="age">Age:</label>
+        <input type="number" placeholder="20" /> <br />
+        <br />
+        <label for="course-name">Course:</label>
+        <input type="text" id="course-name" placeholder="c/c++ program" />
+        <br />
+        <br />
+        <label for="phone-number" id="phone-number">Phone:</label>
+        <input
+          type="number"
+          name="phone-number"
+          placeholder="12345 67890"
+          id="phone-number"
+        />
+        <br />
+        <br />
+        <label for="email" id="email">Email:</label>
+        <input type="email" placeholder="exampel@anymail.com" /><br /><br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+
+    <div class="youtube">
+      <h1>Online Tutorials (Neso Academy)</h1>
+      <!-- y1 -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/rLf3jnHxSmU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      >
+      </iframe>
+      <!-- y2 -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLBlnK6fEyqRh6isJ01MBnbNpV3ZsktSyS"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      >
+      </iframe>
+      <!-- y3 -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLBlnK6fEyqRiueC_HzwFallNO76hfXBB7"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      >
+      </iframe>
+      <!-- y4 -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLBlnK6fEyqRjKA_NuK9mHmlk0dZzuP1P5"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+    <!-- footer -->
+    <footer id="footer">
+      <h2>Designed and developed by: SLK Developer Team, Chennai.</h2>
+    </footer>
+  </body>
+</html>
